@@ -1,12 +1,12 @@
-<a href="https://github.com/cryowire">
-  <img src="https://raw.githubusercontent.com/cryowire/artwork/main/logo-type/logotype.png" alt="cryowire" width="400" />
-</a>
+<p align="center"><a href="https://github.com/cryowire">
+  <img src="https://raw.githubusercontent.com/cryowire/artwork/main/logo-type/logotype.png" alt="cryowire" width="600" />
+</a></p>
 
-# cryowire/vscode-extension
-
-Preview `cooldown.yaml` files as interactive wiring diagrams directly in VS Code.
-
-See **[cryowire.github.io](https://cryowire.github.io/)** for the full project overview.
+<h1 align="center">cryowire/vscode-extension</h1>
+<p align="center">Preview <code>cooldown.yaml</code> files as interactive wiring diagrams directly in VS Code.</p>
+<p align="center">
+  <a href="https://cryowire.github.io/"><img src="https://img.shields.io/badge/Website-cryowire.github.io-38bdf8?style=for-the-badge" alt="Website" /></a>
+</p>
 
 ## Features
 
