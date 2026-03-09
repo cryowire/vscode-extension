@@ -2,11 +2,11 @@ import * as vscode from "vscode";
 import { execSync } from "child_process";
 import * as path from "path";
 
-const VIEWER_BASE = "https://cryo-wiring.github.io/viewer/";
+const VIEWER_BASE = "https://cryowire.github.io/viewer/";
 
 export function activate(context: vscode.ExtensionContext) {
   const command = vscode.commands.registerCommand(
-    "cryo-wiring.previewCooldown",
+    "cryowire.previewCooldown",
     () => {
       const editor = vscode.window.activeTextEditor;
       if (!editor) {
@@ -76,7 +76,7 @@ function resolveRawUrl(filePath: string): string | null {
 }
 
 /**
- * Open the cryo-wiring viewer in a webview panel,
+ * Open the cryowire viewer in a webview panel,
  * embedding the viewer site via iframe.
  */
 function openViewerPanel(
@@ -87,7 +87,7 @@ function openViewerPanel(
   const fileName = path.basename(filePath);
   const panel = vscode.window.createWebviewPanel(
     "cryoWiringViewer",
-    `Cryo-Wiring: ${fileName}`,
+    `Cryowire: ${fileName}`,
     vscode.ViewColumn.Beside,
     {
       enableScripts: true,

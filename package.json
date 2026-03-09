@@ -1,13 +1,13 @@
 {
-  "name": "cryo-wiring-viewer",
-  "displayName": "Cryo-Wiring Viewer",
+  "name": "cryowire-viewer",
+  "displayName": "Cryowire Viewer",
   "description": "Preview cooldown.yaml files as interactive wiring diagrams",
   "version": "0.1.0",
-  "publisher": "cryo-wiring",
+  "publisher": "cryowire",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cryo-wiring/vscode-extension"
+    "url": "https://github.com/cryowire/vscode-extension"
   },
   "engines": {
     "vscode": "^1.85.0"
@@ -22,9 +22,9 @@
   "contributes": {
     "commands": [
       {
-        "command": "cryo-wiring.previewCooldown",
+        "command": "cryowire.previewCooldown",
         "title": "Preview Cooldown",
-        "category": "Cryo-Wiring",
+        "category": "Cryowire",
         "icon": "$(open-preview)"
       }
     ],
@@ -32,7 +32,7 @@
       "editor/title": [
         {
           "when": "resourceFilename =~ /cooldown\\.ya?ml$/",
-          "command": "cryo-wiring.previewCooldown",
+          "command": "cryowire.previewCooldown",
           "group": "navigation"
         }
       ]
