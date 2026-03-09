@@ -1,1 +1,1 @@
-# vscode-extenstion
+# vscode-extension
