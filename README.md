@@ -1,1 +1,29 @@
-# vscode-extension
+# Cryo-Wiring Viewer – VS Code Extension
+
+Preview `cooldown.yaml` files as interactive wiring diagrams directly in VS Code.
+
+## Features
+
+- **Preview button**: Opens automatically in the editor title bar when viewing `cooldown.yaml`
+- **Side-by-side preview**: Renders the cryo-wiring viewer in a webview panel beside your editor
+- **Auto-reload**: Preview updates when you save the file
+- **GitHub integration**: Automatically resolves the raw URL from your git remote
+
+## Usage
+
+1. Open a `cooldown.yaml` file in VS Code
+2. Click the preview icon in the editor title bar, or run **Cryo-Wiring: Preview Cooldown** from the command palette
+3. The viewer opens in a side panel with wiring diagrams, summary tables, and line details
+
+## Development
+
+```bash
+npm install
+npm run build
+```
+
+Press `F5` to launch the Extension Development Host for testing.
+
+## How it works
+
+The extension embeds the [cryo-wiring viewer](https://cryo-wiring.github.io/viewer/) site in a VS Code webview panel. It resolves the `raw.githubusercontent.com` URL from your local git remote and branch, then passes it to the viewer via `?url=` query parameter.
