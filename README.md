@@ -1,6 +1,12 @@
-# Cryowire Viewer – VS Code Extension
+<a href="https://github.com/cryowire">
+  <img src="https://raw.githubusercontent.com/cryowire/artwork/main/logo-type/logotype.png" alt="cryowire" width="400" />
+</a>
+
+# cryowire/vscode-extension
 
 Preview `cooldown.yaml` files as interactive wiring diagrams directly in VS Code.
+
+See **[cryowire.github.io](https://cryowire.github.io/)** for the full project overview.
 
 ## Features
 
